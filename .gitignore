@@ -1,0 +1,17 @@
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+.coverage.xml
+.coverage.json
+.coverage.yaml
+.coverage.yml
+.coverage.jsonl
+.coverage.jsonl.gz
+.coverage.jsonl.bz2
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+venv/
+htmlcov
