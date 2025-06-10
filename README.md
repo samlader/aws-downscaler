@@ -1,7 +1,6 @@
 # AWS Downscaler
 
 [![Build Status](https://github.com/samlader/aws-downscaler/actions/workflows/ci.yml/badge.svg)](https://github.com/samlader/aws-downscaler/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Scale down AWS resources during non-work hours to save costs. Inspired by the brilliant [kube-downscaler](https://codeberg.org/hjacobs/kube-downscaler).
 
