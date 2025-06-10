@@ -4,7 +4,7 @@
 
 Scale down AWS resources during non-work hours to save costs. Inspired by the brilliant [kube-downscaler](https://codeberg.org/hjacobs/kube-downscaler).
 
-- Currently the following AWS resource types:
+- Currently supports the following AWS resource types:
   - EC2 Auto Scaling Groups
   - ECS Services
 - Flexible scheduling with timezone support
