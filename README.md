@@ -50,6 +50,16 @@ Example: `Mon-Fri 07:30-20:30 America/New_York`
 ```
 Example: `2024-04-01T08:00:00-04:00`
 
+### Resource Tags
+
+Resources can be configured using AWS tags:
+
+- `downscaler:uptime`: Override uptime schedule
+- `downscaler:downtime`: Override downtime schedule
+- `downscaler:exclude`: Exclude resource from scaling
+- `downscaler:exclude-until`: Temporarily exclude until timestamp
+- `downscaler:downtime-scale`: Override downtime scale factor
+
 ### Command Line Options
 
 - `--dry-run`: Print actions without making changes
@@ -62,16 +72,6 @@ Example: `2024-04-01T08:00:00-04:00`
 - `--include-resources`: Resource types to manage (comma-separated)
 - `--exclude-resources`: Resource patterns to exclude (comma-separated)
 - `--downtime-scale`: Scale factor during downtime (0-100, default: 0)
-
-### Resource Tags
-
-Resources can be configured using AWS tags:
-
-- `downscaler:uptime`: Override uptime schedule
-- `downscaler:downtime`: Override downtime schedule
-- `downscaler:exclude`: Exclude resource from scaling
-- `downscaler:exclude-until`: Temporarily exclude until timestamp
-- `downscaler:downtime-scale`: Override downtime scale factor
 
 ### Example Usage
 
