@@ -11,7 +11,7 @@ Scale down AWS resources during non-work hours to save costs. Inspired by the br
 - Dry-run mode for testing
 
 > [!CAUTION]
-> This project is a WIP and is not production ready.
+> This project is a WIP and is not production ready. Contributions are welcome!
 
 ## Installation
 
